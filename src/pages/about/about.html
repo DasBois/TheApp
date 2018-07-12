@@ -8,43 +8,48 @@
 
 <ion-content padding>
 
-  <ion-card>
-    <ion-card-header>
-      Explore Nearby
-    </ion-card-header>
-  
-    <ion-list>
-      <button ion-item>
-        <ion-icon name="cart" item-start></ion-icon>
-        Shopping
-      </button>
-  
-      <button ion-item>
-        <ion-icon name="medical" item-start></ion-icon>
-        Hospital
-      </button>
-  
-      <button ion-item>
-        <ion-icon name="cafe" item-start></ion-icon>
-        Cafe
-      </button>
-  
-      <button ion-item>
-        <ion-icon name="paw" item-start></ion-icon>
-        Dog Park
-      </button>
-  
-      <button ion-item>
-        <ion-icon name="beer" item-start></ion-icon>
-        Pub
-      </button>
-  
-      <button ion-item>
-        <ion-icon name="planet" item-start></ion-icon>
-        Space
-      </button>
-  
-    </ion-list>
-  </ion-card>
-  
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="../../assets/imgs/technology1.jpg">
+      </ion-thumbnail>
+      <h2>Technology</h2>
+      <p>Technology based programs.</p>
+      <button ion-button [navPush]="pushPage" clear item-end>View</button>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="../../assets/imgs/Sports.jpg">
+      </ion-thumbnail>
+      <h2>Sports</h2>
+      <p>Sports based programs.</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="">
+      </ion-thumbnail>
+      <h2>Business</h2>
+      <p>Business based programs.</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="">
+      </ion-thumbnail>
+      <h2>Health</h2>
+      <p>Health based program.</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+  </ion-list>
+
 </ion-content>

@@ -20,8 +20,8 @@ export class ContactPage {
     this.items = [
       'TxT',
       'Non-profit',
-      'Another Non-profit',
-      'One more Non-profit'
+      'Pokemon Go',
+      'Yu-gi-oh Bois'
     ];
   }
 
