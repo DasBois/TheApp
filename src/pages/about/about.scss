@@ -1,3 +1,54 @@
 page-about {
 
+    .square{
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        border: solid 1px transparent;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+    }
+    .s1{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+         url("../../assets/imgs/Educaytion.jpg");
+    }
+    .s2{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+         url("../../assets/imgs/technology1.jpg");
+    }
+    .s3{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+         url("../../assets/imgs/Business.jpg");
+    }
+    .s4{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+         url("../../assets/imgs/Sports.jpg");
+    }
+    .title{
+            margin-top: 80px;
+            font-size: 24px;
+            font-weight: 500;
+    }
+    .top{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: -20px;
+        background-color: white;
+    }
+    
+    ion-content{
+        background-color: white;
+    }
+      
+      
+
 }

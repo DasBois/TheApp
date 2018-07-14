@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { InfoPage } from '../info/info';
 
 /**
- * Generated class for the InfoPage page.
+ * Generated class for the EnducationPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +11,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-info',
-  templateUrl: 'info.html',
+  selector: 'page-enducation',
+  templateUrl: 'enducation.html',
 })
-export class InfoPage {
+export class EnducationPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-
-  }
-  go_to() {
-    window.open('http://exploringtech.org/get-involved','_blank');
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad InfoPage');
+    console.log('ionViewDidLoad EnducationPage');
   }
 
 }

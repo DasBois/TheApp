@@ -1,55 +1,35 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Categories
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
+    <ion-navbar>
+      <ion-title>Categories</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+<ion-content>
 
-  <ion-list>
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="../../assets/imgs/technology1.jpg">
-      </ion-thumbnail>
-      <h2>Technology</h2>
-      <p>Technology based programs.</p>
-      <button ion-button [navPush]="pushPage" clear item-end>View</button>
-    </ion-item>
-  </ion-list>
+    <div class="square s1" (click)="changeEducation()">
+        <div class="title">
+          Education
+        </div>
+      </div>
 
-  <ion-list>
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="../../assets/imgs/Sports.jpg">
-      </ion-thumbnail>
-      <h2>Sports</h2>
-      <p>Sports based programs.</p>
-      <button ion-button clear item-end>View</button>
-    </ion-item>
-  </ion-list>
+      <div class="square s2" (click)="changePage()">
+          <div class="title">
+            Technology
+          </div>
+        </div>
 
-  <ion-list>
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="">
-      </ion-thumbnail>
-      <h2>Business</h2>
-      <p>Business based programs.</p>
-      <button ion-button clear item-end>View</button>
-    </ion-item>
-  </ion-list>
+        <div class="square s3" (click)="changeBusiness()">
+            <div class="title">
+              Business
+            </div>
+          </div>
 
-  <ion-list>
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="">
-      </ion-thumbnail>
-      <h2>Health</h2>
-      <p>Health based program.</p>
-      <button ion-button clear item-end>View</button>
-    </ion-item>
-  </ion-list>
-
-</ion-content>
+          <div class="square s4" (click)="changeSports()">
+              <div class="title">
+                Sports
+              </div>
+            </div>
+  
+  </ion-content>

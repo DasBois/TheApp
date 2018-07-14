@@ -8,8 +8,8 @@
 
 <ion-content>
   <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
-  <ion-list>
-    <ion-item *ngFor="let item of items">
+  <ion-list *ngIf="condition">
+    <ion-item *ngFor="let item of items" (click)="changePage(item)">
       {{ item }}
     </ion-item>
   </ion-list>

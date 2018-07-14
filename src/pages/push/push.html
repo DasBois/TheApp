@@ -2,25 +2,51 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Organizations
+    <ion-title> Technology
     </ion-title>
   </ion-navbar>
 
 </ion-header>
 
-
 <ion-content padding>
 
-    <ion-list>
-        <ion-item>
-          <ion-thumbnail item-start>
-            <img src="../../assets/imgs/TXT.png">
-          </ion-thumbnail>
-          <h2>Teens Exploring Technology</h2>
-          <p> A coding and leadership academy for young men of color in South Central L.A targeting both black and brown males.
-              Currently looking for more African American Youth to Join the program.</p>
-          <button ion-button [navPush]="infoPage" clear item-end>View</button>
-        </ion-item>
-      </ion-list>
+    <!-- <ion-slides autoplay="3000" loop="true" speed="300">
+
+        <ion-slide pager >
+          <img (click)="changePage()" src="../../assets/imgs/txt.jpeg"/>
+        </ion-slide>
+
+        <ion-slide pager>
+            <img src="../../assets/imgs/nonprofit.jpg"/>
+          </ion-slide>
+
+      </ion-slides> -->
+  
+  <div class="square" (click)="changePage(item)">
+    <div class="subtitle">
+      Teens Exploring Technology
+    </div>
+    <div class="text">
+        Join TXT and become a tech entrepreneur through our Summer Coding Leadership Academy for young Black and Brown men.
+    </div>
+  </div>
+    <br>
+  <div class="square2" (click)="changePage(item)">
+      <div class="subtitle">
+        SCLA
+      </div>
+      <div class="text">
+          Join TXT and become a tech entrepreneur through our Summer Coding Leadership Academy for young Black and Brown men.
+      </div>
+    </div>
+  <br>  
+    <div class="square3" (click)="changePage(item)">
+        <div class="subtitle">
+          SCLA
+        </div>
+        <div class="text">
+            Join TXT and become a tech entrepreneur through our Summer Coding Leadership Academy for young Black and Brown men.
+        </div>
+      </div>
 
 </ion-content>

@@ -15,7 +15,7 @@ import { InfoPage } from '../info/info';
   templateUrl: 'push.html',
 })
 export class PushPage {
-  pushPage: any;
+  pushPage: any
   infoPage: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {

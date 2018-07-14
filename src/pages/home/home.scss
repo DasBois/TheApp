@@ -1,3 +1,57 @@
 page-home {
+    .square{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+         url("../../assets/imgs/Tinder.png");
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+        padding-top: 150px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+        border: solid 1px transparent;
+        border-radius: 25px;
+    }
+    .square2{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+         url("../../assets/imgs/Hell.png");
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+        padding-top: 150px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+        border: solid 1px transparent;
+        border-radius: 25px;
+    }
+    .square3{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+         url("../../assets/imgs/Tinder.png");
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+        padding-top: 150px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+        border: solid 1px transparent;
+        border-radius: 25px;
+    }
+    .subtitle{
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 10px;
+    }
+    .text{
+        font-size: 18px;
+        padding-top: 15px;
+    }
 
 }
