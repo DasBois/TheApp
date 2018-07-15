@@ -11,8 +11,19 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { PushPage } from '../pages/push/push';
 import { InfoPage } from '../pages/info/info';
 import { EnducationPage } from '../pages/enducation/enducation';
-import { BusinessPage } from '../pages/business/business'
-import { SportsPage } from '../pages/sports/sports'
+import { BusinessPage } from '../pages/business/business';
+import { SportsPage } from '../pages/sports/sports';
+import { Business1Page } from '../pages/business1/business1';
+import { Business2Page } from '../pages/business2/business2';
+import { Business3Page } from '../pages/business3/business3';
+import { Education1Page } from '../pages/education1/education1';
+import { Education2Page } from '../pages/education2/education2';
+import { Education3Page } from '../pages/education3/education3';
+import { Sports1Page } from '../pages/sports1/sports1';
+import { Sports2Page } from '../pages/sports2/sports2';
+import { Sports3Page } from '../pages/sports3/sports3';
+import { Tech2Page } from '../pages/tech2/tech2';
+import { Tech3Page } from '../pages/tech3/tech3';
 
 
 
@@ -30,8 +41,18 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     InfoPage,
     EnducationPage,
     BusinessPage,
-    SportsPage
-
+    SportsPage,
+    Business1Page,
+    Business2Page,
+    Business3Page,
+    Education1Page,
+    Education2Page,
+    Education3Page,
+    Sports1Page,
+    Sports2Page,
+    Sports3Page,
+    Tech2Page,
+    Tech3Page
   ],
   imports: [
     BrowserModule,
@@ -48,7 +69,18 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     InfoPage,
     EnducationPage,
     BusinessPage,
-    SportsPage
+    SportsPage,
+    Business1Page,
+    Business2Page,
+    Business3Page,
+    Education1Page,
+    Education2Page,
+    Education3Page,
+    Sports1Page,
+    Sports2Page,
+    Sports3Page,
+    Tech2Page,
+    Tech3Page
   ],
   providers: [
     StatusBar,

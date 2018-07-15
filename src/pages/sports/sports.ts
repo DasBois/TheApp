@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Sports1Page } from '../sports1/sports1';
+import { Sports2Page } from '../sports2/sports2';
+import { Sports3Page } from '../sports3/sports3'
 
 /**
  * Generated class for the SportsPage page.
@@ -16,6 +19,18 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class SportsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+  
+  changeSport1(){
+    this.navCtrl.push(Sports1Page);
+  }
+
+  changeSport2(){
+    this.navCtrl.push(Sports2Page);
+  }
+
+  changeSport3(){
+    this.navCtrl.push(Sports3Page);
   }
 
   ionViewDidLoad() {

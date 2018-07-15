@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the TestPage page.
+ * Generated class for the Tech2Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,16 +10,20 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-test',
-  templateUrl: 'test.html',
+  selector: 'page-tech2',
+  templateUrl: 'tech2.html',
 })
-export class TestPage {
+export class Tech2Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  go_to() {
+    window.open('https://www.diygirls.org/volunteer','_blank');
+  }
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad TestPage');
+    console.log('ionViewDidLoad Tech2Page');
   }
 
 }
