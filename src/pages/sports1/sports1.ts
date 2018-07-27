@@ -17,7 +17,9 @@ export class Sports1Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-
+  go_to() {
+    window.open('https://homecourt.up2us.org/networking/opening_search.asp','_blank');
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad Sports1Page');
   }
